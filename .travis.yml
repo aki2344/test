@@ -1,6 +1,6 @@
 language: C
 script:
   - gcc ./f01.c -o f01
-  - echo '123' > ./f01
+  - echo '123' | ./f01
   - gcc ./s01.c -o s01
   - ./s01
