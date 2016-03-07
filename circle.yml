@@ -1,0 +1,4 @@
+test:
+  override:
+    - gcc ./f01.c -o a.out
+    - ./f01 < f01_input
