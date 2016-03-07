@@ -1,7 +1,11 @@
 #include <stdio.h>
 
 int main(void){
-  printf("test2\n");
+  int a;
+  printf("input >> ");
+  scanf("%d", &a);
+  
+  printf("out:%d", a);
   
   return 0;
 }
