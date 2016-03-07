@@ -2,9 +2,9 @@
 
 int main(void) {
 
-	int a;
+	int a = 10;
 
-	printf("akiyama\n");
+	printf("akiyama test:%d\n", a);
 
 	return 0;
 }
