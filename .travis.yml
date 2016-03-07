@@ -1,0 +1,4 @@
+language: C
+script:
+  - gcc ./f01.c -o f01
+  - ./f01
