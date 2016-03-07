@@ -1,0 +1,3 @@
+language: C
+script:
+  - gcc ConsoleApplication1/test.c -o ConsoleApplication1/test && ConsoleApplication1/test
